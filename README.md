@@ -25,6 +25,8 @@ I needed to clean it up so that it was usable for our model. I made the followin
 
 ## EDA
 
+<img width="384" alt="Screenshot 2024-04-26 at 12 18 44 AM" src="https://github.com/SanjilMahajani/Salary_predictor/assets/43502576/87047c82-6417-4dbf-a12f-2b2d06d2a479">
+
 
 
 
