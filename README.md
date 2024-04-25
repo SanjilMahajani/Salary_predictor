@@ -26,3 +26,5 @@ I needed to clean it up so that it was usable for our model. I made the followin
 ## EDA
 
 
+
+
