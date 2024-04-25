@@ -13,4 +13,5 @@ https://www.kaggle.com/datasets/madhurpant/data-science-jobs-in-india
 https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
 
 Python Version: 3.7
+
 Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
