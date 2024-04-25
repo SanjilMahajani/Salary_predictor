@@ -15,3 +15,14 @@ https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
 Python Version: 3.7
 
 Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
+
+## Data Cleaning
+
+I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+
+- Parsed numeric data out of salary
+- Checked for any duplicates in the dataset
+
+## EDA
+
+
