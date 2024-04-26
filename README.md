@@ -29,6 +29,10 @@ I looked at the distributions of the data and the value counts for the various c
 
 <img width="368" alt="Screenshot 2024-04-27 at 12 11 57 AM" src="https://github.com/SanjilMahajani/Salary_predictor/assets/43502576/228d61c3-6d3c-4556-8de5-3bcf5727acba">
 
+<img width="316" alt="Screenshot 2024-04-27 at 12 12 32 AM" src="https://github.com/SanjilMahajani/Salary_predictor/assets/43502576/07bde4fb-9d4d-42ec-a848-5e3d5f3168f2">
+
+
+
 
 
 
