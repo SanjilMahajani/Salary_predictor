@@ -47,11 +47,18 @@ I tried four different models:
 
 ## Model performance
 
-The Random Forest model far outperformed the other approaches with a R2 score of 0.999.
+The Random Forest model far outperformed the other approaches.
 
 ## Productionization
 
 In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. This is how the page looks
+
+<img width="1009" alt="Screenshot 2024-04-27 at 12 23 52 AM" src="https://github.com/SanjilMahajani/Salary_predictor/assets/43502576/482bf635-f488-4082-9d80-9e948cb86258">
+
+## Things to Do
+
+- There is currently an issue that the API is not able to fetch the data, therefore the "Estimate salary" button is not working
+- To improve the model's accuracy
 
 
 
