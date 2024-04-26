@@ -33,7 +33,25 @@ I looked at the distributions of the data and the value counts for the various c
 
 <img width="389" alt="Screenshot 2024-04-27 at 12 13 10 AM" src="https://github.com/SanjilMahajani/Salary_predictor/assets/43502576/0c1a6fcf-100b-481d-b064-00700430ec95">
 
+## Model Building
 
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
+
+I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
+
+I tried four different models:
+
+- Multiple Linear Regression – Baseline for the model
+- Lasso and Ridge Regression – Because of the sparse data from the many categorical variables.
+- Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
+
+## Model performance
+
+The Random Forest model far outperformed the other approaches with a R2 score of 0.999.
+
+## Productionization
+
+In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. This is how the page looks
 
 
 
