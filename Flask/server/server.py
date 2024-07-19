@@ -4,7 +4,7 @@ import util
 app = Flask(__name__)
 
 @app.route('/get_company_names', methods=['GET'])
-def get_location_names():
+def get_company_names():
     response = jsonify({
         'companies': util.get_company_names()
     })
@@ -13,7 +13,7 @@ def get_location_names():
     return response
 
 @app.route('/salary', methods=['POST'])
-def predict_home_price():
+def predict_salary_price():
     company= request.form['company']
     title = request.form['title']
     experience = int(request.form['experience'])
